@@ -1,0 +1,10 @@
+@override
+Widget build(BuildContext context) {
+	return Container(
+		clipBehavior: Clip.antiAliasWithSaveLayer,
+		padding: padding,
+		margin: margin,
+		decoration: _getDecoration(),
+		child: child,
+	);
+}
